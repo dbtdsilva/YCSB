@@ -137,6 +137,7 @@ LICENSE file.
     <module>solr</module>
     <module>tarantool</module>
     <!--<module>voldemort</module>-->
+    <module>lmdb</module>
   </modules>
 
   <build>

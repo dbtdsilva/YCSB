@@ -84,6 +84,8 @@ LICENSE file.
     <mongodb.async.version>2.0.1</mongodb.async.version>
     <orientdb.version>2.1.8</orientdb.version>
     <redis.version>2.0.0</redis.version>
+    <lmdb.version>0.9.18</lmdb.version>
+    <lmdb.lmdbjni.version>0.4.6</lmdb.lmdbjni.version>
     <s3.version>1.10.20</s3.version>
     <voldemort.version>0.81</voldemort.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -124,6 +126,7 @@ LICENSE file.
     <module>hypertable</module>
     <module>infinispan</module>
     <module>jdbc</module>
+    <module>lmdb</module>
     <module>kudu</module>
     <!--<module>mapkeeper</module>-->
     <module>memcached</module>
@@ -137,7 +140,6 @@ LICENSE file.
     <module>solr</module>
     <module>tarantool</module>
     <!--<module>voldemort</module>-->
-    <module>lmdb</module>
   </modules>
 
   <build>

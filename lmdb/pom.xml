@@ -31,14 +31,24 @@ LICENSE file.
 
   <dependencies>
     <dependency>
+      <groupId>log4j</groupId>
+      <artifactId>log4j</artifactId>
+      <version>1.2.17</version>
+    </dependency>
+    <dependency>
+      <groupId>org.codehaus.jackson</groupId>
+      <artifactId>jackson-mapper-asl</artifactId>
+      <version>1.9.13</version>
+    </dependency>
+    <dependency>
       <groupId>org.deephacks.lmdbjni</groupId>
       <artifactId>lmdbjni</artifactId>
-      <version>0.4.6</version>
+      <version>${lmdb.lmdbjni.version}</version>
     </dependency>
     <dependency>
       <groupId>org.deephacks.lmdbjni</groupId>
       <artifactId>lmdbjni-linux64</artifactId>
-      <version>0.4.6</version>
+      <version>${lmdb.lmdbjni.version}</version>
     </dependency>
     <dependency>
       <groupId>com.yahoo.ycsb</groupId>
